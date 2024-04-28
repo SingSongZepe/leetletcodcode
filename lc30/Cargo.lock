@@ -5,3 +5,12 @@ version = 3
 [[package]]
 name = "lc30"
 version = "0.1.0"
+dependencies = [
+ "trie_map",
+]
+
+[[package]]
+name = "trie_map"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ff52a06b2c0311536859a741094dd832b5cc4d7cb08d8c7037f778abc3730805"
