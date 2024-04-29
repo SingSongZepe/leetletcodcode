@@ -11,7 +11,7 @@ if exist "%base_name%%count%" (
     goto loop
 ) else (    
     echo Creating Rust project: %base_name%%count%
-    cargo new %base_name%%count%
+    cargo new %base_name%%count% --vcs none
 )
 
 endlocal
