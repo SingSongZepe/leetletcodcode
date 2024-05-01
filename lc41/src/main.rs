@@ -38,8 +38,9 @@ impl Solution {
             if n >= len {
                 continue;
             }
-            nums[n] = -nums[n].abs();
+            nums[n] = -nums[n].abs(); // there nums[n] will be used in the after array
         }
+        println!("{:?}", nums);
 
         // Find positive number with smallest index
         (nums.into_iter().position(|x| x > 0).unwrap_or(len) + 1) as i32
@@ -89,6 +90,13 @@ mod tests {
     #[test]
     fn test6() {
         let nums = vec![7,8,9,11,12];
+        let result = Solution::first_missing_positive1(nums);
+        println!("{result}"); // expected 1
+    }
+
+    #[test]
+    fn test7() {
+        let nums = vec![2, 2];
         let result = Solution::first_missing_positive1(nums);
         println!("{result}"); // expected 1
     }
