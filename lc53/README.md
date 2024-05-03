@@ -32,3 +32,13 @@ Constraints:
 
 
 Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
+
+
+
+### How to implement the algo by divede and conquer
+if we just divide into two part, we will miss the info of cross two parts
+the key of divide and conquer is how to keep info of cross two parts
+if cross, then the subarray will contain the mid of the part array.
+if not cross, will in left or right
+we need those three sum and return the biggest one.
+

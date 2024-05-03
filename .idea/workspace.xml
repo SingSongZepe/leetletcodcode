@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="628e62fd-f3e4-408f-bead-f98405b851f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc54/.idea/lc54.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc54_kotlin/lc54_kotlin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t1/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc31/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc31/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc32/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc32/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc33/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc33/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc34/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc34/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc35/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc35/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc36/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc36/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc37/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc37/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc38/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc38/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc39/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc39/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc40/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc40/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc41/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc41/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc42/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc42/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc43/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc43/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc44/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc44/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc45/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc45/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc46/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc46/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc47/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc47/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc48/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc48/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc49/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc49/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc50/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc50/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc51/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc51/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc52/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc52/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc53/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lc53/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc53/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/lc53/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc53/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/lc53/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r1/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/r1/target/.rustc_info.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="d0atbdjx" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2fxXtZRQREt4UFjTvRQa5ATwPGN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/MySelf/Code/leetcode",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="628e62fd-f3e4-408f-bead-f98405b851f8" name="Changes" comment="" />
+      <created>1714743917643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714743917643</updated>
+      <workItem from="1714743918556" duration="8000" />
+      <workItem from="1714765066937" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
