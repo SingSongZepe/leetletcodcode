@@ -35,6 +35,33 @@ impl Solution {
 }
 
 
+impl Solution {
+    pub fn permute1(nums: Vec<i32>) -> Vec<Vec<i32>> {
+        let mut result = Vec::new();
+        let mut path = Vec::new();
+        let mut used = vec![false; nums.len()];
+        Solution::dfs(&nums, &mut path, &mut used, &mut result);
+        result
+    }
+
+    fn dfs(nums: &Vec<i32>, path: &mut Vec<i32>, used: &mut Vec<bool>, result: &mut Vec<Vec<i32>>) {
+        if path.len() == nums.len() {
+            result.push(path.clone());
+            return;
+        }
+
+        for i in 0..nums.len() {
+            if !used[i] {
+                path.push(nums[i]);
+                used[i] = true;
+                Solution::dfs(nums, path, used, result);
+                path.pop();
+                used[i] = false;
+            }
+        }
+    }
+}
+
 use itertools::Itertools;
 #[cfg(test)]
 mod tests {
@@ -61,6 +88,28 @@ mod tests {
         let result = Solution::permute(nums);
         println!("{result:?}");
     }
+
+    #[test]
+    fn test11() {
+        let nums = vec![1, 2, 3];
+        let result = Solution::permute1(nums);
+        println!("{result:?}");
+    }
+
+    #[test]
+    fn test21() {
+        let nums = vec![0, 1];
+        let result = Solution::permute1(nums);
+        println!("{result:?}");
+    }
+
+    #[test]
+    fn test31() {
+        let nums = vec![1];
+        let result = Solution::permute1(nums);
+        println!("{result:?}");
+    }
+
     #[test]
     fn test_permutation() {
         let mut nums = vec![1, 2, 3];
