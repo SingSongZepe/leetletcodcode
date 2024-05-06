@@ -22,6 +22,13 @@ An exponent is defined with an exponent notation 'e' or 'E' followed by an integ
 The digits are defined as one or more digits.
 
 
+State Machine(My Solution)
+![](./res/img/state_machine2.jpg)
+
+State Machine(Solution)
+![](./res/img/state_machine.png)
+
+
 
 Example 1:
 

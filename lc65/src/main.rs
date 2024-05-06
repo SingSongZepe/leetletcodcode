@@ -52,6 +52,106 @@ impl Solution {
     }
 }
 
+// my solution
+
+enum Status {
+    Start,        // 0 start state
+    Sign,         // 1 sign (+/-)
+    SignNumber,   // 2 sign (+/-) followed by a number
+    Dot,          // 3 decimal point
+    DotNumber,    // 4 decimal point followed by a number
+    Exp,          // 5 exponent marker (e/E)
+    ExpSign,      // 6 exponent marker (+/-)
+    ExpNumber,    // 7 exponent marker (+/-) followed by a number
+    DotBeforeDigit, // 8 decimal point before a digit
+}
+
+impl Status {
+    fn transition(&mut self, c: char) -> Result<Status, ()> {
+        match self {
+            Status::Start => {  // 0 start state
+                match c {
+                    '+' | '-' => Ok(Status::Sign),
+                    '0'..='9' => Ok(Status::SignNumber),
+                    '.' => Ok(Status::DotBeforeDigit),
+                    _ => Err(())
+                }
+            },
+            Status::Sign => { // 1 sign (+/-)
+                match c {
+                    '0'..='9' => Ok(Status::SignNumber),
+                    '.' => Ok(Status::DotBeforeDigit),
+                    _ => Err(())
+                }
+            },
+            Status::SignNumber => { // 2 sign (+/-) followed by a number
+                match c {
+                    '0'..='9' => Ok(Status::SignNumber),
+                    '.' => Ok(Status::Dot),
+                    'e' | 'E' => Ok(Status::Exp),
+                    _ => Err(())
+                }
+            },
+            Status::Dot => { // 3 decimal point
+                match c {
+                    '0'..='9' => Ok(Status::DotNumber),
+                    'e' | 'E' => Ok(Status::Exp),
+                    _ => Err(())
+                }
+            },
+            Status::DotNumber => { // 4 decimal point followed by a number
+                match c {
+                    '0'..='9' => Ok(Status::DotNumber),
+                    'e' | 'E' => Ok(Status::Exp),
+                    _ => Err(())
+                }
+            },
+            Status::Exp => { // 5 exponent marker (e/E)
+                match c {
+                    '+' | '-' => Ok(Status::ExpSign),
+                    '0'..='9' => Ok(Status::ExpNumber),
+                    _ => Err(())
+                }
+            },
+            Status::ExpSign => { // 6 exponent marker (+/-)
+                match c {
+                    '0'..='9' => Ok(Status::ExpNumber),
+                    _ => Err(())
+                }
+            },
+            Status::ExpNumber => { // 7 exponent marker (+/-) followed by a number
+                match c {
+                    '0'..='9' => Ok(Status::ExpNumber),
+                    _ => Err(())
+                }
+            },
+            Status::DotBeforeDigit => { // 8 decimal point before a digit
+                match c {
+                    '0'..='9' => Ok(Status::DotNumber),
+                    _ => Err(())
+                }
+            },
+            _ => Err(())
+        }
+    }
+}
+
+struct Solution1;
+
+impl Solution1 {
+    pub fn is_number(s: String) -> bool {
+        let mut status = Status::Start;
+        for c in s.chars() {
+            status = match status.transition(c) {
+                Ok(new_status) => new_status,
+                Err(_) => return false
+            }
+        }
+        matches!(status, Status::DotNumber | Status::SignNumber | Status::ExpNumber | Status::Dot)
+    }
+}
+
+
 fn helper(ss: Vec<&str>) -> Vec<String> {
     let mut result = Vec::new();
     for s in ss {
@@ -120,3 +220,4 @@ mod tests {
 fn main() {
     println!("Hello, world!");
 }
+
