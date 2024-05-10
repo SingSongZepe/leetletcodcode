@@ -1,3 +1,4 @@
+mod test;
 
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]
@@ -21,30 +22,81 @@ impl Solution {
     pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut dummy = ListNode::new(0);
         dummy.next = head;
-        let mut current = &mut dummy;
+        let mut curr = &mut dummy;
 
-        while let Some(mut node) = current.next.take() {
-            let mut count = 1;
-            let mut next = node.next.take();
-
-            while let Some(mut next_node) = next.take() {
-                if next_node.val == node.val {
-                    count += 1;
-                    next = next_node.next.take();
-                } else {
-                    break;
-                }
-            }
-
-            if count == 1 {
-                current.next = Some(node);
-                current = current.next.as_mut().unwrap();
-            } else {
-                current.next = next;
-            }
-        }
 
         dummy.next
+    }
+}
+
+struct Solution1;
+
+// use std::collections::HashSet;
+
+impl Solution1 {
+    pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+        if head.is_none() {
+            return None;
+        }
+        let mut v = vec![];
+        let binding = head.unwrap();
+        let mut current = binding.as_ref();
+        while current.next.is_some() {
+            v.push(current.val);
+            current = current.next.as_ref().unwrap();
+        }
+        v.push(current.val);
+        Self::make_list(v.iter().filter(|&x| v.iter().filter(|&y| y == x).count() == 1).cloned().collect())
+    }
+    pub fn make_list(v: Vec<i32>) -> Option<Box<ListNode>> {
+        let mut head = Some(Box::new(ListNode::new(0)));
+        let mut current = head.as_mut().unwrap();
+        for val in v {
+            current.next = Some(Box::new(ListNode::new(val)));
+            current = current.next.as_mut().unwrap();
+        }
+        head.unwrap().next
+    }
+}
+
+struct Solution2;
+
+impl Solution2 {
+    pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+        if head.is_none() {
+            return None;
+        }
+        let mut v = vec![];
+        let binding = head.unwrap();
+        let mut curr = binding.as_ref();
+        let mut equal = false;
+        while curr.next.is_some() {
+            let (val1, val2) = (curr.val, curr.next.as_ref().unwrap().val);
+            if val1 == val2 {
+                equal = true;
+            } else {
+                if !equal {
+                    v.push(curr.val);
+                    // equal = false;
+                }
+                equal = false;
+            }
+            curr = curr.next.as_ref().unwrap();
+        }
+        // last element
+        if !equal {
+            v.push(curr.val);
+        }
+        Self::make_list(v)
+    }
+    pub fn make_list(v: Vec<i32>) -> Option<Box<ListNode>> {
+        let mut head = Some(Box::new(ListNode::new(0)));
+        let mut current = head.as_mut().unwrap();
+        for val in v {
+            current.next = Some(Box::new(ListNode::new(val)));
+            current = current.next.as_mut().unwrap();
+        }
+        head.unwrap().next
     }
 }
 
@@ -67,31 +119,6 @@ fn print_list(head: &Option<Box<ListNode>>) {
         current = current.unwrap().next.as_ref();
     }
     println!("");
-}
-
-#[cfg(test)]
-mod tests {
-    use crate::{
-        Solution,
-        helper,
-        print_list,
-    };
-
-    #[test]
-    fn test1() {
-        let v = vec![1, 2, 3, 3, 4, 4, 5];
-        let head = helper(v);
-        let result = Solution::delete_duplicates(head);
-        print_list(&result);
-    }
-
-    #[test]
-    fn test2() {
-        let v = vec![1, 1, 1, 2, 3];
-        let head = helper(v);
-        let result = Solution::delete_duplicates(head);
-        print_list(&result);
-    }
 }
 
 fn main() {
