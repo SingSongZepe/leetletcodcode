@@ -1,9 +1,10 @@
+mod test;
 
 struct Solution;
 
 impl Solution {
-	pub fn solve() {
-		
+	pub fn restore_ip_addresses(s: String) -> Vec<String> {
+
 	}
 }
 
