@@ -24,4 +24,27 @@ mod tests {
 		let result = Solution::restore_ip_addresses(s);
 		println!("{:?}", result);
 	}
+
+	#[test]
+	fn test4() {
+		let s = "010010".to_string();
+		let result = Solution::restore_ip_addresses(s);
+		println!("{:?}", result);
+	}
+
+	#[test]
+	fn test5() {
+		let s = "000000".to_string();
+		let result = Solution::restore_ip_addresses(s);
+		println!("{:?}", result);
+	}
+
+
+	#[test]
+	fn test_is_valid_ip_segment() {
+		let s = "255";
+		let (b, seg) = Solution::is_valid_ip_segment(s);
+		println!("{:?}", b);
+		println!("{:?}", seg);
+	}
 }
