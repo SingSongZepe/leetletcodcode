@@ -58,7 +58,6 @@ impl Solution1 {
 
 struct Solution2;
 
-
 impl Solution2 {
     // good method
     pub fn subsets(mut nums: Vec<i32>) -> Vec<Vec<i32>> {
@@ -77,12 +76,28 @@ impl Solution2 {
 }
 
 
+struct Solution3;
+
+impl Solution3 {
+    // #[allow(clippy::needless_pass_by_value)]
+    pub fn subsets(nums: Vec<i32>) -> Vec<Vec<i32>> {
+        nums.iter().fold(vec![vec![]], |mut acc, &x| {
+            let cur = acc.clone();
+            for v in &cur {
+                acc.push([&v[..], &[x]].concat());
+            }
+            acc
+        })
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use crate::{
         Solution,
         Solution1,
         Solution2,
+        Solution3,
     };
 
     #[test]
@@ -125,6 +140,20 @@ mod tests {
     fn test22() {
         let nums = vec![0];
         let result = Solution2::subsets(nums);
+        println!("{:?}", result);
+    }
+
+    #[test]
+    fn test13() {
+        let nums = vec![1, 2, 3];
+        let result = Solution3::subsets(nums);
+        println!("{:?}", result);
+    }
+
+    #[test]
+    fn test23() {
+        let nums = vec![0];
+        let result = Solution3::subsets(nums);
         println!("{:?}", result);
     }
 }
