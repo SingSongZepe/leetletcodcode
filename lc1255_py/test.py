@@ -45,7 +45,7 @@ class Test(unittest.TestCase):
         score = [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
         result = Solution1().maxScoreWords(words, letters, score)
         print(result)
-        
+
     def test_counter(self):
         words = [ "ax", "bx", "cx"]
         str = ''.join(words)
