@@ -87,6 +87,10 @@ class Solution2:
 
         return False
 
+class Solution3:
+    def find132pattern(self, nums: List[int]) -> bool:
+        n = len(nums)
+        monostack = []
 
 def main():
     print('Hello World')
