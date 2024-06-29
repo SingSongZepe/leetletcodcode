@@ -4,20 +4,17 @@ from main import *
 
 class Test(unittest.TestCase):
     def t(self, arg, expected=None):
-        result = Solution().bulbSwitch(arg)
+        result = Solution().minimumOperations(arg)
         print(result)
+        self.assertEqual(result, expected)
         
     def test1(self):
-        n = 3
-        self.t(n, 1)
+        nums = [1, 2, 3, 4]
+        self.t(nums, 3)
 
     def test2(self):
-        n = 0
-        self.t(n, 0)
-
-    def test3(self):
-        n = 1
-        self.t(n, 1)
+        nums = [3, 6, 9]
+        self.t(nums, 0)
 
 if __name__ == '__main__':
     unittest.main()

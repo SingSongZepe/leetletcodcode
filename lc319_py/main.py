@@ -1,5 +1,9 @@
 
+class Solution:
+    def bulbSwitch(self, n: int) -> int:
 
+
+        pass
 
 def main():
     print('Hello World')
