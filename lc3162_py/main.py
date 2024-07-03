@@ -15,7 +15,7 @@ class Solution1:
     def numberOfPairs(self, nums1: List[int], nums2: List[int], k: int) -> int:
 
         pass
-    
+
 
 def main():
     print('Hello World')
