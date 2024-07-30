@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="155d06c1-c68b-4afd-ad6d-3b27cb81bf8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lc85/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lc85/res/img/maximal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lc85/src/test.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lc86/res/img/partition.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../lc786/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lc786/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/deps/lc786-4cb71ff7fd7033e7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lc786/target/debug/deps/lc786-4cb71ff7fd7033e7.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/deps/lc786-4cb71ff7fd7033e7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lc786/target/debug/deps/lc786-4cb71ff7fd7033e7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/10vd5lpudzmi88t9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/119mnzn99zli5euh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/1ct0lnkpx7aa6mo0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/1d32b8rehnmvgfir.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/1t24zynqq5n4gcuj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/1tf7to0901gwt49w.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/1x0sfjq4cjvm1srw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/1y5pn4vk76i8kgth.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/261vhegnfm2k25si.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/28y4jmk1yr9xsy4e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/29wh8bjtl9fjof9y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/2nlpvk5zsymiagia.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/2zi2q8h5wzdb9vfh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/30snw8r3mwhehtii.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/346wj2d0wols9t50.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/38rkr3b4agoufeo3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/3bs5nvydu7d35gze.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/3cpa055wpjhzp8bt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/3dyneutpam5o5tpw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/3e2c8334jhinhowo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/3gnap3ysfgxnipuf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/3ie66jsxpnb1snio.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/3ip0fjclc5i9so9w.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/3jhdfvflu4ac5xtq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4052o0en2a3qirc1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/44jthp74rz84owpt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4cmaspwqzfo0sv67.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4d9qqwoql2h1h22w.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4hu3a7yjveoinff0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4lhcoygf4vpgqrvh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4m3y3fs2lgah17lw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4n7xhpnepmiugfkr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4o2k76cxxe7f045.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4oh8ur6t87stujg7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4wiwucless7lla7i.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/4zm6i0940ra5q66s.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/50rmow6dvrjaqa4z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/513wkckigm6e00vw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/55ayopczfklmlvx3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/566iug6mp78h91c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/5a540d0v8qmxu8k3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/5av65bwhz2v9kejo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/5gqdj0owxd3bicew.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/7v68krorqda0k5h.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/8u354b2gyjb6gr7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/apxno9rjdp7y4ok.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/h9nmxiyyqzp7myv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/lk1qw52h9ep43e4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2-1bfiah2xytw0c/wxaa5jdzc907e5w.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc786/target/debug/incremental/lc786-3lftd3s9qmc9j/s-gw1ce41rt1-1knz8a2.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc83/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lc83/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc84/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../lc84/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc84/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../lc84/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc84/src/test.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../lc84/src/test.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc84/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lc84/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc85/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../lc85/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc86/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../lc86/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc86/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../lc86/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc86/src/test.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../lc86/src/test.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="3d68akje" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2gKGlDUYX5LyRM8QwozVECQDca0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Test test::tests.executor": "Run",
+    "Cargo.Test test::tests::test1.executor": "Debug",
+    "Cargo.Test test::tests::test2.executor": "Run",
+    "Cargo.Test test::tests::test3.executor": "Run",
+    "Cargo.Test test::tests::test4.executor": "Run",
+    "Cargo.Test test::tests::test5.executor": "Run",
+    "Cargo.Test test::tests::test_extend_u8.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/MySelf/Code/leetcode/lc88",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.disableDetachedFileInspectionF:/MySelf/Code/leetcode/lc87/src/test.rs": "true",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "language.rust.cargo.check",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Cargo.Test test::tests::test5">
+    <configuration name="Run lc_template" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package lc_template --bin lc_template" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test lc_template" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --workspace" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::tests::test1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package lc_template --bin lc_template test::tests::test1 -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::tests::test2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package lc_template --bin lc_template test::tests::test2 -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::tests::test3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package lc_template --bin lc_template test::tests::test3 -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::tests::test4" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package lc_template --bin lc_template test::tests::test4 -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::tests::test5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package lc_template --bin lc_template test::tests::test5 -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test test::tests::test5" />
+        <item itemvalue="Cargo.Test test::tests::test2" />
+        <item itemvalue="Cargo.Test test::tests::test3" />
+        <item itemvalue="Cargo.Test test::tests::test4" />
+        <item itemvalue="Cargo.Test test::tests::test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="155d06c1-c68b-4afd-ad6d-3b27cb81bf8d" name="Changes" comment="" />
+      <created>1715439004655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715439004655</updated>
+      <workItem from="1715439005494" duration="5277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.rs</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
