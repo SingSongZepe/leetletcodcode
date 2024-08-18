@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="628e62fd-f3e4-408f-bead-f98405b851f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lc58_go/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc58_go/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc58_go/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc59_go/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc59_go/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc59_go/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc59_go/res/img/spiraln.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc60_go/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc60_go/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc57_py/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lc57_py/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="628e62fd-f3e4-408f-bead-f98405b851f8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,8 +33,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/MySelf/Code/leetcode/lc46",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/MySelf/Code/leetletcodcode-main/lc264_py",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
@@ -63,6 +52,7 @@
       <workItem from="1714743918556" duration="8000" />
       <workItem from="1714765066937" duration="31000" />
       <workItem from="1714843585490" duration="10000" />
+      <workItem from="1724012173042" duration="46000" />
     </task>
     <servers />
   </component>
