@@ -1,16 +1,24 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from heapq import heappush, heappop
 
-
+class Solution(object):
+    def nthUglyNumber(self, n):
+        primes = [2,3,5]
+        uglyHeap = [1]
+        visited = set()
+        visited.add(1)
+        for _ in range(n):
+            curr = heappop(uglyHeap)
+            for prime in primes:
+                new_ugly = curr * prime
+                if new_ugly not in visited:
+                    heappush(uglyHeap, new_ugly)
+                    visited.add(new_ugly)
+        return curr
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
